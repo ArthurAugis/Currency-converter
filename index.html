@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Convertisseur</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <meta name="keywords" content="Arthur, Augis, BTS, SIO, SLAM, Projet, Convertisseur, Convertir, Monnaie, HTML, CSS, Javascript, Github, OpenSource" />
+        <meta name="description" content="Projet personnel de convertisseur de monnaie codé en HTML/CSS/JS avec l'api exchangerate-api." />
+        <meta name="revised" content="11/12/2023" />
+    </head>
+<body>
+    <div class="converter">
+        <div class="input">
+            <label for="fromCurrency">De :</label>
+            <select id="fromCurrency">
+            </select>
+            <input type="number" id="inputAmount" placeholder="Montant à convertir">
+        </div>
+        
+        <div class="output">
+            <label for="toCurrency">À :</label>
+            <select id="toCurrency">
+            </select>
+            <input type="number" id="outputAmount" placeholder="Résultat" readonly>
+        </div>
+        <a class="github-button" href="https://github.com/ArthurAugis/Currency-converter" target="_blank">Voir sur GitHub</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
